@@ -29,11 +29,11 @@ function countEvenNumbers(arrayOfNumbers){
     arrayOfNumbers.forEach((num) =>{
         if(num % 2 === 0){
             count+= 1
-        }else{
-            return
         }
+
     })
-    // console.log(`The total number of even numbers is ${count}`)
+    return count
+  
 }
 countEvenNumbers(arrayOfNumbers)
 assignment.countEvenNumbers = countEvenNumbers;
@@ -55,7 +55,7 @@ function celsiusToFahrenheit(arrayOfTemperatures){
         newArray.push(conversion)
     })
 
-    // console.log(newArray)
+    return newArray
 }
 celsiusToFahrenheit(arrayOfTemperatures)
 
