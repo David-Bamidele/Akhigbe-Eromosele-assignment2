@@ -33,7 +33,7 @@ function countEvenNumbers(arrayOfNumbers){
             return
         }
     })
-    console.log(`The total number of even numbers is ${count}`)
+    // console.log(`The total number of even numbers is ${count}`)
 }
 countEvenNumbers(arrayOfNumbers)
 assignment.countEvenNumbers = countEvenNumbers;
@@ -47,15 +47,15 @@ assignment.countEvenNumbers = countEvenNumbers;
 //  * E.g 51.21 should just be 51 (hint: Math.trunc(...) function)
 
 const arrayOfTemperatures = [0,56,32]
-let calc
+
 let newArray = []
 function celsiusToFahrenheit(arrayOfTemperatures){
     arrayOfTemperatures.forEach((num)=>{
-        conversion =Math.trunc((num * 1.8) + 32)
+       let conversion =Math.trunc((num * 1.8) + 32)
         newArray.push(conversion)
     })
 
-    console.log(newArray)
+    // console.log(newArray)
 }
 celsiusToFahrenheit(arrayOfTemperatures)
 
